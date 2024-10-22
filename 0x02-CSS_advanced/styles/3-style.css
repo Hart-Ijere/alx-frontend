@@ -2,11 +2,11 @@ html {
     scroll-behavior: smooth;
   }
   body {
-    --text-color: var(--color-black); /* Custom property for text color, set to black */
+    color: var(--text-color); /* Use the primary color for section-tagline */
   }
   
   a {
-    --text-color: var(--color-black); /* Custom property for text color, set to black */ 
+    color: var(--text-color); /* Use the primary color for section-tagline */
   }
   
   .visually-hidden {
@@ -14,11 +14,11 @@ html {
   }
   
   .card-category {
-    --color-primary: #d73953;    /* Custom property for primary color */
+    color: var(--color-primary); /* Use the primary color for section-tagline */
   }
   
   .section-tagline {
-    --color-primary: #d73953;    /* Custom property for primary color */
+    color: var(--color-primary); /* Use the primary color for section-tagline */
   }
   :root {
     --color-primary: #d73953;    /* Custom property for primary color */
