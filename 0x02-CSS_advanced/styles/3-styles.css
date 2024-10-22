@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    --text-color: var(--color-black); /* Custom property for text color, set to black */
+  }
+  
+  a {
+    --text-color: var(--color-black); /* Custom property for text color, set to black */ 
+  }
+  
+  .visually-hidden {
+    display: none; /* Hide elements with the class visually-hidden */
+  }
+  
+  .card-category {
+    --color-primary: #d73953;    /* Custom property for primary color */
+  }
+  
+  .section-tagline {
+    --color-primary: #d73953;    /* Custom property for primary color */
+  }
+  :root {
+    --color-primary: #d73953;    /* Custom property for primary color */
+    --color-black: #090909;      /* Custom property for black color */
+    --color-white: #ffffff;      /* Custom property for white color */
+    --color-light-grey: #f3f3f3; /* Custom property for light grey color */
+    --color-dark-grey: #353535;  /* Custom property for dark grey color */
+    --text-color: var(--color-black); /* Custom property for text color, set to black */
+  }
+  
+  /* Revisit the section-tagline and card-category declarations */
+  .section-tagline {
+    color: var(--color-primary); /* Use the primary color for section-tagline */
+  }
+  
+  .card-category {
+    color: var(--color-primary); /* Use the primary color for card-category */
+  }
+  
+  
