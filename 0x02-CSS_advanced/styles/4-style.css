@@ -1,84 +1,37 @@
 html {
     scroll-behavior: smooth;
   }
-  body {
-    color: var(--text-color); /* Use the primary color for section-tagline */
-    font-family: var(--font-family-baseCreate a new declaration targeting all 6 levels of section headings, positioned before the links declaration
-    set its font-family to font-family-titlehtml {
-      scroll-behavior: smooth;
+
+body {
+      color: var(--text-color); /* Use the primary color for section-tagline */
+      font-family: var(--font-family-base);
     }
-    body {
+h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-family-title);
+    }
+    
+a {
       color: var(--text-color); /* Use the primary color for section-tagline */
     }
     
-    a {
-      color: var(--text-color); /* Use the primary color for section-tagline */
-    }
-    
-    .visually-hidden {
+.visually-hidden {
       display: none; /* Hide elements with the class visually-hidden */
     }
     
-    .card-category {
+.card-category {
       color: var(--color-primary); /* Use the primary color for section-tagline */
     }
     
-    .section-tagline {
+.section-tagline {
       color: var(--color-primary); /* Use the primary color for section-tagline */
     }
-    :root {
+:root {
       --color-primary: #d73953;    /* Custom property for primary color */
       --color-black: #090909;      /* Custom property for black color */
       --color-white: #ffffff;      /* Custom property for white color */
       --color-light-grey: #f3f3f3; /* Custom property for light grey color */
       --color-dark-grey: #353535;  /* Custom property for dark grey color */
       --text-color: var(--color-black); /* Custom property for text color, set to black */
+      --font-family-base: 'Helveltical Neue', Helvetica, Arial, sans-serif;
+      --font-family-title: 'Helveltical Neue', Helvetica, Arial, sans-serif;
     }
-    
-    /* Revisit the section-tagline and card-category declarations */
-    .section-tagline {
-      color: var(--color-primary); /* Use the primary color for section-tagline */
-    }
-    
-    .card-category {
-      color: var(--color-primary); /* Use the primary color for card-category */
-    }
-    h1, h2, h3, h4, h5, h6 {
-      font-family: var(--font-family-title);
-    }
-    
-  a {
-    color: var(--text-color); /* Use the primary color for section-tagline */
-  }
-  
-  .visually-hidden {
-    display: none; /* Hide elements with the class visually-hidden */
-  }
-  
-  .card-category {
-    color: var(--color-primary); /* Use the primary color for section-tagline */
-  }
-  
-  .section-tagline {
-    color: var(--color-primary); /* Use the primary color for section-tagline */
-  }
-  :root {
-    --color-primary: #d73953;    /* Custom property for primary color */
-    --color-black: #090909;      /* Custom property for black color */
-    --color-white: #ffffff;      /* Custom property for white color */
-    --color-light-grey: #f3f3f3; /* Custom property for light grey color */
-    --color-dark-grey: #353535;  /* Custom property for dark grey color */
-    --text-color: var(--color-black); /* Custom property for text color, set to black */
-    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
-    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
-  }
-  
-  /* Revisit the section-tagline and card-category declarations */
-  .section-tagline {
-    color: var(--color-primary); /* Use the primary color for section-tagline */
-  }
-  
-  .card-category {
-    color: var(--color-primary); /* Use the primary color for card-category */
-  }
-  
